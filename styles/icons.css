@@ -1,0 +1,122 @@
+/* Font-face assignment */
+@font-face {
+	font-family: 'Alkami';
+	src: url('../fonts/Alkami.woff2') format('woff2'),
+		 url('../fonts/Alkami.woff') format('woff');
+}
+
+/* Font icon selector classes */
+[class*="font-icon-"] {
+	line-height: 1;
+}
+
+[class*="font-icon-"][class*="font-icon-"]::before,
+[class*="font-icon-"][class*="font-icon-"]::after {
+	display: inline-block;
+	font-family: 'Alkami' !important;
+	font-size: 1.6rem;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	speak: none;
+	text-transform: none;
+	vertical-align: middle;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="xs"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="xs"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 1.6rem;
+}
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="sm"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="sm"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 2.0rem;
+}
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="md"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="md"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 2.4rem;
+}
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="lg"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="lg"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 2.8rem;
+}
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="xl"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="xl"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 3.2rem;
+}
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="2xl"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="2xl"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 4.2rem;
+}
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="3xl"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="3xl"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 6.4rem;
+}
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="4xl"]::before,
+[class*="font-icon-"][class*="font-icon-"][data-icon-size="4xl"]::after {
+	font-family: 'Alkami' !important;
+	font-size: 7.2rem;
+}
+
+/* Font icon global overrides */
+.font-icon-star-filled {
+	color: #D7A300;
+}
+
+.font-icon-phone2.font-icon-phone2:not([data-font-options*="after"])::before,
+.font-icon-phone2.font-icon-phone2[data-font-options*="before"]::before,
+.font-icon-phone2.font-icon-phone2[data-font-options*="after"]::after {
+	font-family: 'Alkami' !important;
+	content:'\EACC' !important;
+}
+
+.font-icon-atm-locator.font-icon-atm-locator:not([data-font-options*="after"])::before,
+.font-icon-atm-locator.font-icon-atm-locator[data-font-options*="before"]::before,
+.font-icon-atm-locator.font-icon-atm-locator[data-font-options*="after"]::after {
+	font-family: 'Alkami' !important;
+	content:'\ED66' !important;
+}
+
+.font-icon-touchid.font-icon-touchid:not([data-font-options*="after"])::before,
+.font-icon-touchid.font-icon-touchid[data-font-options*="before"]::before,
+.font-icon-touchid.font-icon-touchid[data-font-options*="after"]::after {
+	font-family: 'Alkami' !important;
+	content:'\ED4D' !important;
+}
+
+.font-icon-show.font-icon-show:not([data-font-options*="after"])::before,
+.font-icon-show.font-icon-show[data-font-options*="before"]::before,
+.font-icon-show.font-icon-show[data-font-options*="after"]::after {
+	font-family: 'Alkami' !important;
+	content:'\EAF7' !important;
+}
+
+.font-icon-hide.font-icon-hide:not([data-font-options*="after"])::before,
+.font-icon-hide.font-icon-hide[data-font-options*="before"]::before,
+.font-icon-hide.font-icon-hide[data-font-options*="after"]::after {
+	font-family: 'Alkami' !important;
+	content:'\EA89' !important;
+}
+
+.font-icon-eho.font-icon-eho:not([data-font-options*="after"])::before,
+.font-icon-eho.font-icon-eho[data-font-options*="before"]::before,
+.font-icon-eho.font-icon-eho[data-font-options*="after"]::after {
+	font-family: 'Alkami' !important;
+	content:'\ED3C' !important;
+}
+
+.font-icon-ncua.font-icon-ncua:not([data-font-options*="after"])::before,
+.font-icon-ncua.font-icon-ncua[data-font-options*="before"]::before,
+.font-icon-ncua.font-icon-ncua[data-font-options*="after"]::after {
+	font-family: 'Alkami' !important;
+	content:'\ED4A' !important;
+}

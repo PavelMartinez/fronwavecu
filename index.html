@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frоntwаvе</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://iris.alkamitech.com/cdn/iris-vue@official/iris-components.min.css">
+    <link rel="stylesheet" href="styles/constants.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header_row">
+                <div class="img_wrapper">
+                    <img src="./img/Logo.png" alt="Frontwave Dashboard">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div id="usernameAndPassword_ellipsis" class="ellipsis">
+                        <div class="irisv-menu-dropdown irisv-menu-dropdown--navigation irisv-menu-dropdown--quickactionbutton irisv-menu-dropdown--isOpen" id="ellipsis_menu">
+                            <div id="irisv_menu_dropdown_f5yieaayqps" aria-haspopup="" class="irisv-menu-dropdown__menu-button" aria-expanded="true">
+                                <div aria-haspopup="true" is-static="true" size="medium" style="display: inline-block;">
+                                    <button tabindex="0" role="button" aria-label="Menu" class="irisv-quickactionbutton irisv-quickactionbutton--mediumEmphasis irisv-quickactionbutton--embedded">
+                                        <div>
+                                            <div class="irisv-avatar">
+                                                <svg viewBox="0 0 104 104" class="irisv-avatar__svg" style="width: 40px; height: 40px; display: none;">
+                                                    <path d="M52.05, 2.17a50, 50, 0, 1, 1-50, 50, 50, 50, 0, 0, 1, 50-50" class="irisv-avatar__progress-ring--static"></path>
+                                                    <path d="M52.05, 2.17a50, 50, 0, 1, 1-50, 50, 50, 50, 0, 0, 1, 50-50" class="irisv-avatar__progress-ring--fill" style="stroke: rgb(8, 136, 86); stroke-dasharray: 0; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                                <div class="irisv-avatar__status-line" style="width: 40px; height: 40px;">
+                                                    <div role="img" class="irisv-avatar__content" style="width: 40px; height: 40px; border-radius: 24px; background: rgb(var(--colorBrandedAffordance100));"><span role="img" class="irisv-icon irisv-avatar__content__main-icon font-icon-more irisv-icon--md irisv-avatar__content__main-icon--medium" style="color: rgb(var(--colorBrandedAffordanceAccessible)); width: 40px; height: 40px; font-size: 14px;"><!----></span>
+                                                        <!---->
+                                                    </div>
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <!---->
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form authentication">
+                        <div class="credentials_row">
+                            <h1>
+                                Welcome to online <br/>banking
+                            </h1>
+                            <div class="textfield__container">
+                                <div class="textfield__control">
+                                    <div class="textfield__input-wrapper">
+                                        <span id="username_label">
+                                            <label for="username" class="textfield__label"> Username </label>
+                                        </span>
+                                        <input type="text" aria-labelledby="username_label" aria-required="true" id="username" required="required" kind="underline" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="textfield__input">
+                                    </div>
+                                </div>
+                                <div class="textfield__messages">
+    
+                                </div>
+                                <div class="textfield__control">
+                                    <div class="textfield__input-wrapper">
+                                        <span id="username_label">
+                                            <label for="password" class="textfield__label"> Password </label>
+                                        </span>
+                                        <input type="password" aria-labelledby="password_label" aria-required="true" id="password" required="required" class="textfield__input" autocomplete="current-password">
+                                    </div>
+                                    <div class="irisv-textfield__trailing-icon">
+                                        <button aria-label="Show password" type="button" class="irisv-textfield__trailing-button">
+                                            <span role="img" class="irisv-icon font-icon-hide irisv-icon--md">
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="textfield__messages">
+                                        
+                                </div>
+                            </div>
+                            <div class="rememberMe textfield__label">
+                                <div class="irisv-switch" id="rememberMeCheckBox" >
+                                    <button aria-checked="true" aria-label="rememberMe" role="switch" class="irisv-switch__button" type="button" id="rememberButton">
+                                        <div class="irisv-switch__button-pip">
+                                        </div>
+                                    </button>
+                                </div>
+                                Remember Me
+                            </div>
+                        </div>
+                        <div class="submit_row">
+                            <button type="submit" class="irisv-button irisv-button--highEmphasis irisv-button--onLight irisv-button--full-width text--none" id="btn_submitCredentials">
+                                <span class="irisv-button__text"> Log in 
+                                </span>
+                            </button>
+                            <div class="forgotLinks">
+                                <span>
+                                    Forgot 
+                                    <a href="/ForgotUsername">Username</a>
+                                    or 
+                                    <a href="/ForgotPassword">Password</a>?
+                                </span>
+                            </div>
+                            <a href="/Registration" class="registration">
+                                Register a New Account
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="form" id="columnToHide">
+                        <div class="form-content">
+                            <h2>On a mobile device?</h2>
+                            <p>
+                                Download the app for convenient and secure access to your accounts.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <div aria-label="Biometric Login" role="img" style="width: 40px; height: 40px; border-radius: 24px; background: rgb(117, 117, 117); text-align: center; ">
+                                            <span role="img" class="font-icon-touchid" style="display: flex; justify-content: center; align-items: center;">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div style="margin: 0 0 0 16px;">
+                                        <h4>                                  
+                                            Biometric Login
+                                        </h4>
+                                        <span class="description">
+                                            Use your device hardware
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div role="img" style="width: 40px; height: 40px; border-radius: 24px; background: rgb(117, 117, 117); text-align: center; ">
+                                            <span role="img" class="font-icon-atm-locator" style="display: flex; justify-content: center; align-items: center;">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div style="margin: 0 0 0 16px;">
+                                        <h4>                                  
+                                            Nearby ATMs
+                                        </h4>
+                                        <span class="description">
+                                            Enable location services
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div role="img" style="width: 40px; height: 40px; border-radius: 24px; background: rgb(117, 117, 117); text-align: center; ">
+                                            <span role="img" class="font-icon-phone2" style="display: flex; justify-content: center; align-items: center;">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div style="margin: 0 0 0 16px;">
+                                        <h4>                                  
+                                            Snapshot
+                                        </h4>
+                                        <span class="description">
+                                            Preview accounts without logging in
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+    
+                            <div class="badges">
+                                <a href="https://www.apple.com/ios/app-store">
+                                    <img id="app-store" alt="Download on the App Store" src="./img/AppStore.svg">
+                                </a>
+                                <a href="https://play.google.com/store">
+                                    <img id="google-play" alt="Get it on Google Play" src="./img/GooglePlay.svg">
+                                </a>
+                            </div>
+                            <div class="go_mobile">
+                                <a href="https://ebanking.frontwavecu.com/Mobile/Authentication" class="irisv-button mar-top--base irisv-button--compact irisv-button--onLight text--none" id="mobile-link">
+                                    <span class="irisv-button__text"> Go to mobile site </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_row navigation">
+                <div class="navbar_wrapper">
+                    <ul class="navbar">
+                        <li><a href="https://ebanking.frontwavecu.com/" target="_blank" rel="noopener noreferrer">Home</a></li>
+                        <li><a href="https://ebanking.frontwavecu.com/Mobile" target="_blank" rel="noopener noreferrer">Mobile</a></li>
+                        <li><a href="https://ebanking.frontwavecu.com/QuickApply" rel="noopener noreferrer">Apply for a Loan</a></li>
+                        <li><a href="https://www.frontwavecu.com/resources/help/rates" target="_blank" rel="noopener noreferrer">Rates</a></li>
+                        <li><a href="https://www.frontwavecu.com/resources/help/contact-us" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+                        <li><a href="https://ebanking.frontwavecu.com/Authentication#/browser-support" id="browser-support-info" title="Open Browser Support Dialog">Browser Support</a></li>
+                    </ul>
+                </div>
+                <div class="routing">
+                    <span style="margin-right: 4px;">Routing number</span>
+                    <span>322274925</span>
+                </div>
+            </div>
+            <div class="footer_row bank_icons">
+                <div>
+                    <span class="font-icon-eho" role="img" aria-label="Equal Housing Opportunity."></span>
+                    <span class="font-icon-ncua" role="img" aria-label="Your savings federally insured to at least $250,000 and backed by the full faith and credit of the United States Government. National Credit Union Administration, a U.S. Government Agency."></span>
+                </div>
+            </div>
+            <div class="footer_row copyrights">
+                <div> 
+                    Copyright © 2023. All rights reserved.
+                </div>
+                <div> 
+                    Federally Insured by NCUA
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./scripts/checkbox.js" type="text/javascript"></script>
+<script>
+    let hideButton = document.getElementsByClassName('irisv-textfield__trailing-button')[0];
+
+    hideButton.addEventListener("click", (e) => {
+        if (e.target.nodeName != 'SPAN') { return; } 
+        let inputs = document.getElementById('password');
+        if(e.target.classList.contains('font-icon-hide'))
+        {
+            e.target.classList.remove('font-icon-hide');
+            e.target.classList.add("font-icon-show")
+            inputs.type = "text";
+        }
+        else if(e.target.classList.contains('font-icon-show'))
+        {
+            e.target.classList.remove('font-icon-show');
+            e.target.classList.add("font-icon-hide")
+            inputs.type = "password";
+        }
+    });
+</script>
+</html>

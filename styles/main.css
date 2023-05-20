@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+[class^="font-icon-"], [class*=" font-icon-"] {
+    width: 100%;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+header {
+    background-image: url("../img/headerFooterbg.png");
+    background-color: #E4002B;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    min-width: 1005px;
+    padding: 10px 0px;
+}
+
+.header_row {
+    display: flex;
+    align-items: center;
+    width: 991px;
+    margin: auto;
+}
+
+.submit_row {
+    width: 100%;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.img_wrapper {
+    padding: 0px 8px;
+}
+
+.img_wrapper img {
+    width: 251.75px;
+}
+
+
+body {
+    background: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    height: 649.5px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 20px;
+}
+
+.container {
+    border-radius: 10px;
+    background: linear-gradient(to right, #FFFFFF 544.5px, #f2f2f2 calc(100% - 544.5px));
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.15) !important;
+}
+
+.row {
+    display: flex; /* establish flex container */
+    flex-direction: row; /* make main axis horizontal (default value) */
+    justify-content: space-between; /* center items horizontally, in this case */
+    align-items: center; /* center items vertically, in this case */
+    height: 100%;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.authentication {
+    margin: 100px;
+}
+
+.credentials_row {
+    color: black;
+    width: 344.5px;
+}
+
+.credentials_row h1 {
+    margin-bottom: 40px !important;
+    display: flex;
+}
+
+.textfield__control {
+    /*border: 2px solid rgb(206, 22, 22);*/
+    background-color: rgb(242, 242, 242);
+    border-radius: 24px;
+    padding: 0px 8px;
+    transition: 150ms all cubic-bezier(0.5, 0, 0.2, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.irisv-textfield__trailing-icon span {
+    justify-content: center;
+    color: rgb(102, 102, 102)
+}
+
+.textfield__input-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 8px;
+    width: 100%;
+}
+
+input.textfield__input[type=text], input.textfield__input[type=password], input.textfield__input[type=search], input.textfield__input[type=date] {
+    background: unset;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    float: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    width: 100%;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+    color: #333333;
+}
+
+.textfield__label {
+    font-family: Roboto, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #333333;
+}
+
+.textfield__messages {
+    color: rgb(102, 102, 102);
+    cursor: default;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 15px;
+}
+
+.irisv-button__text {
+    text-transform: none;
+}
+
+.form-content {
+    width: 252.5px;
+}
+
+.form-content ul {
+    text-decoration: none;
+}
+
+.form-content li {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    height: 60px;
+}
+
+.form-content h4 {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+}
+
+.description {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #333333;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+#app-store {
+    margin-right: 8px;
+}
+
+.badges img {
+    height: 33px;
+    max-width: 100%;
+}
+
+.switch__button-pip {
+    background: rgb(51, 47, 33);
+    border: 8px solid rgb(51, 47, 33);
+    border-radius: 24px;
+    box-shadow: 0 8 24 -8 rgba(26, 26, 26),24%;
+    -webkit-box-sizing: unset!important;
+    box-sizing: unset!important;
+    height: calc(16px - 8px*2);
+    margin: 8px;
+    transition: all 100ms cubic-bezier(0.5, 0, 0.2, 1);
+    width: calc(16px - 8px*2);
+}
+
+.rememberMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    margin: 24px 0 8px;
+}
+
+#rememberMeCheckBox {
+    margin-right: 16px;
+}
+
+.irisv-button {
+    margin: 0 0 28px;
+}
+
+.selected label {
+    background-color: rgba(245,245,245,.15);
+    background-image: none !important;
+    border-color: rgba(0,0,0,0);
+    box-shadow: none !important;
+    color: #333 !important;
+    -ms-filter: none !important;
+    filter: none !important;
+}
+
+h1 {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #333333;
+}
+
+h2 {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    color: #333333;
+}
+
+p {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    padding: 16px 0 0;
+}
+
+#columnToHide {
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 0px 10px 10px 0px;
+    max-width: 460.5px;
+    margin: 104px;
+}
+
+.go_mobile {
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #333333;
+    margin: 24px 0 0;
+}
+
+.ellipsis {
+    position: absolute;
+    top: 32px;
+    z-index: 1;
+}
+
+.forgotLinks {
+    font-family: Roboto, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #333333;
+    text-align: center;
+    margin: 0px 0px 16px;
+}
+
+.forgotLinks a {
+    color: #0267c1;
+    text-decoration: none;
+}
+
+.registration {
+    font-family: Roboto, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    align-self: center;
+    color: #0267c1;
+    text-decoration: none;
+}
+
+footer {
+    background-image: url("../img/headerFooterbg.png");
+    background-color: #E4002B;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-width: 1005px;
+    font-family: Roboto, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    flex: 0 0 auto;
+    margin-top: auto;
+}
+
+.footer_row {
+    display: flex;
+    align-items: center;
+    width: 991px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.navigation {
+    padding: 16px 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.navbar li {
+    float: left;
+    margin-right: 24px;
+}
+
+.routing {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.routing span:first-child {
+    font-weight: 400;
+}
+.routing span:last-child {
+    font-weight: 700;
+}
+
+.bank_icons {
+    justify-content: end;
+    padding-top: 16px;
+}
+
+.bank_icons span {
+    min-width: 64px;
+    justify-content: end;
+    flex-shrink: 1;
+    margin-left: 4px;
+}
+
+.bank_icons span::before {
+    font-size: 4rem !important;
+}
+
+.copyrights {
+    padding: 0 !important;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1023px){
+    .img_wrapper {
+        padding: 0px 12px;
+    }
+    .header_row {
+        width: 1104px;
+    }
+}
+
+@media screen and (max-width: 1365px){
+
+    .img_wrapper img {
+        width: 231.75px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #columnToHide {
+        display: none;
+    }
+
+    .credentials_row {
+        width: 100%;
+    }
+
+    .credentials_row h1 {
+        display: none;
+    }
+
+    .container {
+        background: #FFFFFF;
+    }
+
+    .authentication {
+        padding: 24px;
+        margin: 0;
+    }
+
+    main {
+        justify-content: start;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .row {
+        align-items: start;
+        min-width: 1005px;
+    }
+}
